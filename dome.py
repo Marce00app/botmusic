@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 import yt_dlp
 import asyncio
 
-TELEGRAM_TOKEN = os.getenv('7576082688:AAE7B5p24JklJiIXEihrF2Fu7f7SgjIvnCc')
+TELEGRAM_TOKEN = os.getenv'7576082688:AAE7B5p24JklJiIXEihrF2Fu7f7SgjIvnCc'
 
 DOWNLOAD_DIR = "downloads"
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
@@ -60,3 +60,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
